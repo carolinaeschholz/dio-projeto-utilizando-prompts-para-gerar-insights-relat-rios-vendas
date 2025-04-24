@@ -17,15 +17,17 @@ Transformar dados brutos de vendas em **insights estratégicos** para a Meganium
 
 ## 🗂 Estrutura de Pastas
 
-📦 meganium-games-insights/ 
-├── 📂 data/ │ 
-├── 📂 raw_data/ # Planilhas originais de vendas de Etsy, Shopee e AliExpress │ 
-└── 📂 processed_data/ # Dados limpos e consolidados para análise 
-├── 📂 insights/ # Resultados e gráficos das análises realizadas 
-├── 📂 prompts/ 
-│ └── 📄 chatgpt_prompts.md # Lista de perguntas usadas para gerar os insights 
-├── 📂 scripts/ # Códigos de ETL, limpeza, unificação e análise
-└── 📄 readme.md # Este arquivo de documentação
+```text
+📦 meganium-games-insights/
+├── 📂 data/
+│   ├── 📂 raw_data/          # Planilhas originais de vendas de Etsy, Shopee e AliExpress
+│   ├── 📂 processed_data/    # Dados limpos e consolidados para análise
+├── 📂 insights/              # Resultados e gráficos das análises realizadas
+├── 📂 prompts/
+│   └── 📄 chatgpt_prompts.md # Lista de perguntas usadas para gerar os insights
+├── 📂 scripts/               # Códigos de ETL, limpeza, unificação e análise
+└── 📄 readme.md              # Este arquivo de documentação
+```
 
 ---
 
